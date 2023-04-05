@@ -1,0 +1,24 @@
+#product_list_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    margin-top: 90px;
+    margin-left: 140px;
+    font-weight: 500;
+  }
+  #list_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 66px;
+  }
+  @media all and (max-width: 1024px) {
+    #list_card {
+      margin-left: 50px;
+      margin-top: 36px;
+    }
+    #product_list_title {
+      margin-left: 70px;
+    }
+  }
+  
